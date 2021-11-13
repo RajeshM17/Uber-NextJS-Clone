@@ -28,10 +28,11 @@ export default function Home() {
      <Map/>
       <ActionItems>
         <Header>
-          <UberLogo src="https://i.ibb.co/84stgjq/uber-technologies-new-202118114.jpg"/>
+          <UberLogo src="https://i.ibb.co/84stgjq/uber-technologies-new-20218114.jpg"/>
           <Profile>
+            {console.log(user)}
             <Name>{user&&user.name}</Name>
-            <UserImage src={user&&user.photoURL}
+            <UserImage src={user&&user.photoUrl}
             onClick={()=>signOut(auth)}
             />
           </Profile>
@@ -39,12 +40,12 @@ export default function Home() {
         <ActionButtons>
           <Link href="/search">
           <ActionButton>
-            <ActionButtonImage src="https://i.ibb.co/cyvcfF/uberx.png"/>
+            <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png"/>
             Ride
           </ActionButton>
           </Link>
           <ActionButton>
-          <ActionButtonImage src="https://i.ibb.co/n7763Lm/bike.png"/>
+          <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png"/>
             Wheel
           </ActionButton>
           <ActionButton>

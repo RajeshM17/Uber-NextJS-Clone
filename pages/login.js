@@ -15,10 +15,10 @@ const Login = () => {
     }, [])
     return (
         <Wrapper>
-            <UberLogo drc='https://i.ibb.co/ZMbyBars/uber-logo.png'/>
+            <UberLogo src='https://i.ibb.co/n6LWQM4/Post.png'/>
 
             <Title>Login TO Acess you Account</Title>
-            <HeadImage drc='https://i.ibb.co/CsVRRYZ/login-image.png'/>
+            <HeadImage src='https://i.ibb.co/CsV9RYZ/login-image.png'/>
          <SignInButton onClick={()=>signInWithPopup(auth,provider)}>
             Sign In with Google 
         </SignInButton>  
