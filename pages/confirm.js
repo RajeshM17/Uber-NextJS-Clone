@@ -4,7 +4,7 @@ import tw from "tailwind-styled-components";
 import Map from "./components/Map";
 import RideSelector from "./components/RideSelector";
 import Link from 'next/link'
-const confirm = () => {
+const Confirm = () => {
   const [pickupCoordinates, setPickupCoordinates] = useState([0,0]);
   const [dropoffCoordinates, setDropoffCoordinates] = useState([0,0]);
   const router = useRouter();
@@ -63,7 +63,7 @@ const confirm = () => {
   );
 };
 
-export default confirm;
+export default Confirm;
 const Wrapper = tw.div`
 flex h-screen flex-col
 `;

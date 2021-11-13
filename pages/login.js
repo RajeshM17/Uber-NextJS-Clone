@@ -26,7 +26,7 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Login;
 const Wrapper=tw.div`
 flex flex-col h-screen bg-gray-200 w-screen p-4
 `
